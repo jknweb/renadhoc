@@ -1,0 +1,386 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .mainServices{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex:100%;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    .services{
+        width:100%;
+    
+    }
+  }
+
+* {
+    margin :0px;
+    padding : 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+.image:hover{
+    opacity: 0.5;
+}
+
+a:hover {
+    color:rgb(202, 30, 30);
+}
+
+h1, h2, h3, h4{
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.green{
+    color : green;
+}
+
+hr{
+    width: 10%;
+    align-items: center;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a, p{
+    font-size: 1rem;
+    
+}
+
+a{
+    color : #000
+    
+}
+.title{
+    margin:35px;
+    color : red;
+    text-align: center;
+    
+}
+
+.containeurHead {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-bottom: 4px blue solid;
+}
+
+.logo {
+    font-size: 24px;
+    padding: 10px;
+
+}
+
+.containeurMenu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #6BC4FB;
+}
+
+.containeurMenu ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+.containeurMenu ul li {
+    padding: 16px 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+  
+}
+
+.mainHead{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction :column; 
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainServices{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction :row; 
+    column-gap: 15px;
+    width:80%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services{
+    width:300px;
+    height: 300px;
+    overflow: hidden;
+    background-color: #fff;
+ 
+    box-shadow: 1px 1px 1px 1px #E3E3E3;
+    
+    border-radius: 5px;
+    position:relative;
+    top:-50px;
+    
+    padding:5px;
+    text-align: center;
+}
+.heroHead {
+    background-color: rgb(35, 8, 114);
+    color:white;
+    height: 50vh;;
+    background-image: url(/images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: left;
+    padding : 0 10px;
+    
+}
+
+.heroHead  button{
+width:150px;
+padding : 10px;
+}
+.heroHead  p{
+    color : green;
+    font-size:1.5rem;
+    padding : 20px 10px;
+    width: 100%;
+    background-color: rgb(249, 246, 246);
+    text-align: center;
+    }
+.heroHead  h1{
+        color : white;
+        font-size:3.5rem;
+        font-size: Roboto condensed;
+        } 
+
+.main{
+    margin-top : 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction :row;
+    width : 80%;
+    max-width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    column-gap: 20px;
+}
+.main ul li{
+    list-style-type: none;
+    line-height: 20px;
+}
+
+.articlesLast, .document{
+   
+    padding-left : 10px;
+    
+}
+
+.titre {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content :space-between;
+    align-items: center;
+    max-width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#eee;
+    color:red;
+}
+
+.rs {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content :right;
+    align-content: center;
+    column-gap: 10px;
+    padding-right  : 10px;
+}
+.bg {
+    background-color: #eee;
+}
+
+.mainNews{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction :row; 
+    width:80%;
+    max-width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    column-gap:20px;
+}
+
+.news img{
+    width : 100%;
+    height: 200px;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 400px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.mainNews .news p{
+    color : grey !important;
+}
+
+.mainNews .news h3{
+    text-align :center;
+    font-size:1.2rem !important;
+    height: 100px;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.mainNews .news button{
+    margin-top: 10px;
+    text-align :center;
+    font-size:1.2rem !important;
+    height: 50px;
+}
+
+.mainNews .news button:hover{
+    background-color: #6BC4FB;
+    color: #fff;
+}
+
+
+
+.partenaires{
+    margin-top : 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    flex-direction :row;
+    row-gap: 15px;
+    width : 80%;
+}
+.partHead{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border: solid 1px grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+.partHead p{
+    padding: 5px;
+    text-align: center;
+    margin-top:5px;
+    font-size: 12px;
+}
+
+.partHead img{
+    width: 80%;
+}
+
+.welcome{
+    flex : 2;
+    line-height: 18px;
+}
+.articlesLast{
+    flex : 1;
+}
+.document{
+    flex : 1;
+}
+
+
+
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 4px rgb(0, 0, 0) solid;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-image: url(/images/herofoot.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+footer a, p{
+  color :black;
+    
+}
+footer img{
+    width:30%;
+      
+  }
+
+  footer ul li{
+    list-style-type: none;
+    line-height: 20px;
+  }
+  footer p{
+    line-height: 20px;
+  }
+
+.cFoot{
+    margin-top : 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction :row;
+    width : 80%;
+    max-width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 15px;
+    margin:30px 0;
+    
+}
+.cFoot h3{
+    margin: 15px 0;
+}
+
+.aboutUs{
+    flex : 2;
+    line-height: 18px;
+}
+.liensUtiles{
+    flex : 1;
+    line-height: 18px;
+}
+.reprodhoc{
+    flex : 1;
+    line-height: 18px;
+}
+.contacts{
+    flex : 2;
+    line-height: 18px;
+}
